@@ -37,10 +37,10 @@
 
     <!-- 2.数据库相关依赖-->
     <dependency>
-      <groupId>com.microsoft.sqlserver</groupId>
-      <artifactId>sqljdbc4</artifactId>
-      <version>4.0</version>
-      <scope>runtime</scope>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.35</version>
+        <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>c3p0</groupId>
